@@ -288,6 +288,7 @@ done
 
 for ((i=0; i<${CAMERA_NUM}; i++))
 do
+	echo "test git"
     echo "width$i: ${WIDTH[$i]}, height$i: ${HEIGHT[$i]}, format$i: ${FORMAT[$i]}, num_buffers: ${num_buffers}, \
     interlaced$i: ${interlace_mode[$i]}, deinterlace_method: ${deinterlace_method} printfps: ${printfps}"
 
