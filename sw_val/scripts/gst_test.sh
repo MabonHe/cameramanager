@@ -7,7 +7,6 @@ if [ $# -lt 1 ] ; then
     echo "USAGE: $0 CASE_NAME" 
     exit 1; 
 fi
-echo "helloworld"
 CASE_NAME=$1
 SW_VAL_ROOT=/home/root/sw_val
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${SW_VAL_ROOT}/bin
